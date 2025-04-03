@@ -1,6 +1,3 @@
-.main-tree { 
-    background: white 
-}
 .tree-node {
     background: var(--deletedCol);
 }
