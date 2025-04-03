@@ -13,7 +13,7 @@
       <!--Кнопка для разворачивания дерева-->
       <button mat-icon-button matTreeNodeToggle>
         <mat-icon class="mat-icon-rtl-mirror">
-          {{tree.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+          {{tree.isExpanded(node) ? 'expand_less' : 'expand_more'}}
         </mat-icon>
       </button>
       {{node.id + ' - ' + node.title}}
